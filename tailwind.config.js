@@ -1,7 +1,11 @@
 module.exports = {
-  purge: [
-    './src/**/*.svelte',
-  ],
+  purge: {
+      mode: 'all',
+      content: [
+          './src/**/*.svelte',
+          './src/**/*.html'
+      ],
+  },
   theme: {
     extend: {},
   },

@@ -1,9 +1,3 @@
-// import autoprefixer from 'autoprefixer';
-// import cssnano from 'cssnano';
-// import postcssNested from 'postcss-nested';
-// import postcssImport from 'postcss-import';
-// import tailwindcss from 'tailwindcss';
-
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 const postcssImport = require('postcss-import')
