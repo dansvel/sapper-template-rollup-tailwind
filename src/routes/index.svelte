@@ -31,8 +31,8 @@
 </svelte:head>
 
 <h1>Great success!</h1>
-<div class="text-3xl uppercase font-bold m-0 mb-4 text-orange-500 font-sans">
-  tittle above using tyle tag in svelte, but this line using inline tailwind class
+<div class="text-3xl font-bold m-0 mb-4 text-orange-500 font-sans">
+  tittle above using style tag in svelte, but this line using inline tailwind class
 </div>
 <figure>
 	<img alt='Success Kid' src='successkid.jpg'>
