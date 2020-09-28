@@ -14,11 +14,11 @@ module.exports = {
         postcssPresetEnv({
             features: {
                 // https://github.com/tailwindcss/tailwindcss/issues/1190
-                "focus-within-pseudo-class": false,
-                "nesting-rules": true, // delete if you don’t want nesting (optional)
+                'focus-within-pseudo-class': false,
+                'nesting-rules': true, // delete if you don’t want nesting (optional)
             },
         }),
-        purgecss ({
+        production && purgecss ({
             content: [
                 './**/**/*.html',
                 './**/**/*.svelte'
@@ -26,7 +26,7 @@ module.exports = {
             whitelistPatterns: [/svelte-/],
             defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
         }),
-        cssnano({
+        production && cssnano({
             preset: [
                 'default',
                 {discardComments: {removeAll: true}},
