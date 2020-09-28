@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: false, // purge handle by postcss
   theme: {
     extend: {},
   },
