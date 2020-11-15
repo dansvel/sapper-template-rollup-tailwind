@@ -7,7 +7,7 @@ From official [sapper-template-rollup](https://github.com/sveltejs/sapper-templa
 Clone this repo and cd to the directory, then run npm or yarn
 
 ```bash
-npx degit dan-unhuman/sapper-template-rollup-tailwind myproject
+npx degit dansvel/sapper-template-rollup-tailwind myproject
 cd myproject
 npm install # or yarn
 npm run dev
