@@ -3,7 +3,7 @@
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
-    "dev": "NODE_ENV=production sapper dev",
+    "dev": "sapper dev",
     "build": "NODE_ENV=production sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
